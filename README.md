@@ -1,7 +1,4 @@
 # HTML, CSS and Git exercises
-
-A big thanks to Code Your Future.
-
 ---
 
 ## Set up the project
