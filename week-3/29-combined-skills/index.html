@@ -11,9 +11,9 @@
 
   <body>
     <div class="site-wrapper">
-      <div class="site-header">
-        <h1 class="site-header__title">C.Y.F</h1>
-        <div class="main-nav">
+      <header class="site-header">
+        <h1 class="site-header__title">Codi</h1>
+        <nav class="main-nav">
           <ul class="main-nav__list">
             <li class="main-nav__list-item">
               <a href="index.html">Latest</a>
@@ -25,11 +25,9 @@
               <a href="contact.html">Contact</a>
             </li>
           </ul>
-        </div>
+        </nav>
         <form class="site-search" action="/search">
-          <label for="search-input">
-            Search
-          </label>
+          <label for="search-input">Search</label>
           <input id="search-input" class="site-search__input" type="text" name="search" />
           <svg
             aria-hidden="true"
@@ -47,7 +45,7 @@
           </svg>
           <button type="submit">Submit</button>
         </form>
-      </div>
+      </header>
 
       <main>
         <div class="hero">
@@ -67,7 +65,7 @@
           <a class="views__all" href="#">View All</a>
         </div>
         <div class="items">
-          <div class="item">
+          <article class="item">
             <img class="item__image" src="/images/29-item-1.jpg" />
             <h2 class="item__title">
               Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -76,8 +74,8 @@
             <p class="item__time">
               <time datetime="2019-02-03">February 2, 2019</time>
             </p>
-          </div>
-          <div class="item">
+          </article>
+          <article class="item">
             <img class="item__image" src="/images/29-item-2.jpg" />
             <h2 class="item__title">
               Sunt in culpa qui officia deserunt mollit anim
@@ -86,7 +84,7 @@
             <p class="item__time">
               <time datetime="2019-01-27">January 27, 2019</time>
             </p>
-          </div>
+          </article>
           <div class="item">
             <img class="item__image" src="/images/29-item-3.jpg" />
             <h2 class="item__title">
@@ -106,7 +104,8 @@
             href="https://github.com/coditech/Submissions/tree/master/Exercises/html-css-git-exercises"
             >Built</a
           >
-          with ♥ for <a href="https://codi.tech/">Codi</a>.
+          <!-- with ♥ for <a href="https://codi.tech/">Codi</a>. -->
+          with <span class="heart">♥</span> for <a href="https://codi.tech/">Codi</a>
         </p>
         <p>
           <svg
